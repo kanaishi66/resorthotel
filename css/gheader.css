@@ -16,7 +16,7 @@
 	/*右の余白を消し、画面幅に収める*/
 	#wrapper {
 		width:100%;
-		overflow:hidden;
+/*		overflow:hidden;*/
 	}
 	
 	#pagetop{
@@ -28,6 +28,7 @@
 		background: #3f98ef;
 		opacity: 0.6;
 		border-radius: 50%;
+		z-index: 1;
 	}
 	#pagetop a{
 		position: relative;
@@ -100,6 +101,9 @@
 		height: 50px;
 		border-bottom: 1.2px solid #C8C8C8;
 		margin-left: auto;
+		z-index: 1;
+		position: fixed;
+		width: 100%;
 	}
 
 	.navTop_other ul{
@@ -257,7 +261,7 @@
 
 	/*キャッチコピー　トップ*/
 	.catchcopy_top h2{
-		margin-top: 40px;
+		margin-top: 80px;
 		text-align: center;
 	}
 
@@ -274,7 +278,6 @@
 	/*パラグラフ　トップ*/
 	.paragragh_top p{
 		text-align: center;
-		margin-bottom: 40px;
 	}
 
 	/*スマホ版版トピック　削除*/
