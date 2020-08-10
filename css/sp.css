@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (max-width:767px){
+@media screen and (max-width:781px) {
   /*画面幅が480pxまでの時*/
 	
 	h1 {
@@ -349,10 +349,6 @@
 
 		margin-top: 3px;
 	}
-	
-	.news h2 {
-		margin-top: 0;
-	}
 
 	.news_list{
 		width: 90%;
@@ -526,8 +522,8 @@
 
 	.recomend_plan {
 		background-color: #F1F1F1;
-		height: 1450px;
 		padding-top: 10px;
+		padding-bottom: 20px;
 	}
 	
 	.recomend_plan h2{
@@ -690,3 +686,4 @@
 		font-size:12px;
 	}
 }
+
