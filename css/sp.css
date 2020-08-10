@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (max-width:781px) {
+@media screen and (max-width:786px) {
   /*画面幅が480pxまでの時*/
 	
 	h1 {
@@ -391,6 +391,14 @@
 	/*パラグラフ　トップ*/
 	.paragragh_top p{
 		text-align: center;
+	}
+	
+	.topic h2 {
+		margin: 0;
+	}
+	
+	.topic_title {
+		margin: 0;
 	}
 
 	/*トピック1の画像*/
